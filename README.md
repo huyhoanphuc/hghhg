@@ -5,7 +5,7 @@ local entity = Creator.createEntity({
     CustomName = "Dread", -- Custom name of your entity
     Model = "rbxassetid://12805768832", -- Can be GitHub file or rbxassetid
     Speed = 600, -- Percentage, 100 = default Rush speed
-    DelayTime = 20, -- Time before starting cycles (seconds)
+    DelayTime = 30, -- Time before starting cycles (seconds)
     HeightOffset = 6,
     CanKill = true,
     KillRange = 10000,
@@ -13,7 +13,7 @@ local entity = Creator.createEntity({
     BackwardsMovement = false,
     FlickerLights = {
         true, -- Enabled/Disabled
-        15, -- Time (seconds)
+        27, -- Time (seconds)
     },
     Cycles = {
         Min = 1,
@@ -21,8 +21,8 @@ local entity = Creator.createEntity({
         WaitTime = 2,
     },
     CamShake = {
-        false, -- Enabled/Disabled
-        {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+        6, -- Enabled/Disabled
+        {10.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
         100, -- Shake start distance (from Entity to you)
     },
     Jumpscare = {
